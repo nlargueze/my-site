@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Nick Labs</h1>
+<header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/me">/me</a>
+        <a href="/now">/now</a>
+        <a href="/blog">/blog</a>
+    </nav>
+</header>
+<main>
+    <p>This is my personal site</p>
+</main>
+
