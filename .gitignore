@@ -4,8 +4,7 @@ node_modules
 .output
 .vercel
 /.svelte-kit
-# Removed this to build locally before deploying
-# /build 
+/build 
 
 # OS
 .DS_Store
