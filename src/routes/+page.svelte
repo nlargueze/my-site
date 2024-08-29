@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { format } from 'date-fns';
 	export let data;
 
@@ -61,7 +62,9 @@
 			<div>
 				<span class="blog-date">{formatDate(post.meta.date)}</span>
 				<span>
-					<a href={`/blog/${removeSuffix(post.file, '.md')}`} target="_blank">{post.meta.title}</a>
+					<a href={base + `/blog/${removeSuffix(post.file, '.md')}`} target="_blank">
+						{post.meta.title}
+					</a>
 				</span>
 			</div>
 		{/each}

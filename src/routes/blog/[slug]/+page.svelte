@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { format } from 'date-fns';
 	export let data;
 
@@ -8,7 +9,7 @@
 	}
 </script>
 
-<h1><a href="/" class="logo">Nick Labs</a></h1>
+<h1><a href="{base}/" class="logo">Nick Labs</a></h1>
 <main>
 	<h4 class="post-date">{formatDate(data.post.meta.date)}</h4>
 	<h2>{data.post.meta.title}</h2>
