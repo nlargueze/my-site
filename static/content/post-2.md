@@ -1,7 +1,7 @@
 ---
-title: Example Title
-date: 2023-10-01
-summary: Post 1
+title: Post 2
+date: 2024-03-01
+summary: This is a summery of post 2
 ---
 
 # Example Markdown
