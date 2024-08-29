@@ -5,7 +5,8 @@ node_modules
 .vercel
 /.svelte-kit
 /build 
-/docs
+# Prod version is built in this folder for Hithub Pages
+# /docs
 
 # OS
 .DS_Store
